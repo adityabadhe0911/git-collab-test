@@ -1,0 +1,251 @@
+[
+  {
+    "Test Case ID": "TC_put_api_v1_privat_8e0573__Product_Positive_NoQuery_1",
+    "Test Category": "Positive",
+    "testData_request_body": [
+      {
+        "id": "",
+        "sku": "",
+        "refSku": "",
+        "price": "",
+        "quantity": "",
+        "available": "",
+        "visible": "",
+        "productShipeable": "",
+        "productVirtual": "",
+        "preOrder": "",
+        "productIsFree": "",
+        "quantityOrderMinimum": "",
+        "quantityOrderMaximum": "",
+        "sortOrder": "",
+        "dateAvailable": "",
+        "creationDate": "",
+        "rating": "",
+        "ratingCount": "",
+        "rentalDuration": "",
+        "rentalPeriod": "",
+        "type": "",
+        "descriptions": [],
+        "categories": [],
+        "productSpecifications": {},
+        "attributes": [],
+        "images": [],
+        "productPrices": [],
+        "relatedProducts": [],
+        "owner": {}
+      }
+    ],
+    "testData_query_param": [],
+    "testData_path_param": [
+      {
+        "id": ""
+      }
+    ]
+  },
+  {
+    "Test Case ID": "TC_put_api_v1_privat_8e0573__Product_Positive_WithLang_2",
+    "Test Category": "Positive",
+    "testData_request_body": [
+      {
+        "sku": "",
+        "refSku": "",
+        "price": "",
+        "quantity": "",
+        "available": "",
+        "visible": "",
+        "productShipeable": "",
+        "productVirtual": "",
+        "preOrder": "",
+        "productIsFree": "",
+        "quantityOrderMinimum": "",
+        "quantityOrderMaximum": "",
+        "sortOrder": "",
+        "dateAvailable": "",
+        "creationDate": "",
+        "rating": "",
+        "ratingCount": "",
+        "rentalDuration": "",
+        "rentalPeriod": "",
+        "type": "",
+        "descriptions": "",
+        "categories": "",
+        "productSpecifications": "",
+        "attributes": "",
+        "images": "",
+        "productPrices": "",
+        "relatedProducts": "",
+        "owner": ""
+      }
+    ],
+    "testData_query_param": [
+      {
+        "lang": ""
+      }
+    ],
+    "testData_path_param": [
+      {
+        "id": ""
+      }
+    ]
+  },
+  {
+    "Test Case ID": "TC_put_api_v1_privat_8e0573__Product_Positive_WithStore_3",
+    "Test Category": "Positive",
+    "testData_request_body": [
+      {
+        "id": "",
+        "sku": "",
+        "refSku": "",
+        "price": "",
+        "quantity": "",
+        "available": "",
+        "visible": "",
+        "productShipeable": "",
+        "productVirtual": "",
+        "preOrder": "",
+        "productIsFree": "",
+        "quantityOrderMinimum": "",
+        "quantityOrderMaximum": "",
+        "sortOrder": "",
+        "dateAvailable": "",
+        "creationDate": "",
+        "rating": "",
+        "ratingCount": "",
+        "rentalDuration": "",
+        "rentalPeriod": "",
+        "type": "",
+        "descriptions": [
+          {
+            "language": "",
+            "name": "",
+            "description": "",
+            "metaTitle": "",
+            "metaDescription": "",
+            "metaKeyword": ""
+          }
+        ],
+        "categories": [
+          {
+            "id": "",
+            "name": "",
+            "slug": "",
+            "description": "",
+            "metaTitle": "",
+            "metaDescription": "",
+            "metaKeyword": "",
+            "parentId": "",
+            "level": "",
+            "sortOrder": "",
+            "status": ""
+          }
+        ],
+        "productSpecifications": "",
+        "attributes": [
+          {
+            "attributeId": "",
+            "value": "",
+            "label": ""
+          }
+        ],
+        "images": [
+          {
+            "id": "",
+            "files": "",
+            "title": "",
+            "alt": "",
+            "sortOrder": ""
+          }
+        ],
+        "productPrices": [
+          {
+            "price": "",
+            "currency": "",
+            "quantityMinimum": "",
+            "quantityMaximum": "",
+            "startDate": "",
+            "endDate": ""
+          }
+        ],
+        "relatedProducts": [
+          {
+            "id": "",
+            "sku": "",
+            "name": ""
+          }
+        ],
+        "owner": ""
+      }
+    ],
+    "testData_query_param": [
+      {
+        "store": ""
+      }
+    ],
+    "testData_path_param": [
+      {
+        "id": ""
+      }
+    ]
+  },
+  {
+    "Test Case ID": "TC_put_api_v1_privat_8e0573__Product_DataValidation_PriceType_4",
+    "Test Category": "Data validation",
+    "testData_request_body": [
+      {
+        "id": "",
+        "sku": "",
+        "price": "",
+        "quantity": ""
+      }
+    ],
+    "testData_query_param": [],
+    "testData_path_param": [
+      {
+        "id": ""
+      }
+    ]
+  },
+  {
+    "Test Case ID": "TC_put_api_v1_privat_8e0573__Product_Contract_ResponseSchema_5",
+    "Test Category": "Contract",
+    "testData_request_body": [
+      {
+        "id": "",
+        "sku": "",
+        "refSku": "",
+        "price": "",
+        "quantity": "",
+        "available": "",
+        "visible": "",
+        "productShipeable": "",
+        "productVirtual": "",
+        "preOrder": "",
+        "productIsFree": "",
+        "quantityOrderMinimum": "",
+        "quantityOrderMaximum": "",
+        "sortOrder": "",
+        "dateAvailable": "",
+        "creationDate": "",
+        "rating": "",
+        "ratingCount": "",
+        "rentalDuration": "",
+        "rentalPeriod": "",
+        "type": "",
+        "descriptions": "",
+        "categories": "",
+        "productSpecifications": "",
+        "attributes": "",
+        "images": "",
+        "productPrices": "",
+        "relatedProducts": "",
+        "owner": ""
+      }
+    ],
+    "testData_query_param": [],
+    "testData_path_param": [
+      {
+        "id": ""
+      }
+    ]
+  }
+]
